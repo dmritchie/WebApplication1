@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
-
+<%@ Register Assembly= "AjaxControlToolkit" Namespace= "AjaxControlToolkit" TagPrefix="ajaxControlToolkit"%>
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -17,10 +17,9 @@
 </head>
 <body>
     <form runat="server">
-    <asp:ScriptManager runat="server">
+    <AjaxControlToolkit:ToolkitScriptManager runat="server">
         <Scripts>
             <%--Framework Scripts--%>
-            <asp:ScriptReference Name="MsAjaxBundle" />
             <asp:ScriptReference Name="jquery" />
             <asp:ScriptReference Name="jquery.ui.combined" />
             <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
@@ -35,12 +34,12 @@
             <%--Site Scripts--%>
 
         </Scripts>
-    </asp:ScriptManager>
+    </AjaxControlToolkit:ToolkitScriptManager>
     <header>
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">your logo here</a>
+                    <a runat="server" href="~/"><img src="images/logo.png"  /></a>
                 </p>
             </div>
             <div class="float-right">
