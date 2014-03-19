@@ -17,7 +17,7 @@
 </head>
 <body>
     <form runat="server">
-    <AjaxControlToolkit:ToolkitScriptManager runat="server">
+    <ajaxControlToolkit:ToolkitScriptManager runat="server">
         <Scripts>
             <%--Framework Scripts--%>
             <asp:ScriptReference Name="jquery" />
@@ -34,7 +34,7 @@
             <%--Site Scripts--%>
 
         </Scripts>
-    </AjaxControlToolkit:ToolkitScriptManager>
+    </ajaxControlToolkit:ToolkitScriptManager>
     <header>
         <div class="content-wrapper">
             <div class="float-left">

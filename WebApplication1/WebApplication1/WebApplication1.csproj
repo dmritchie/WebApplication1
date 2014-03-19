@@ -139,6 +139,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="Calculator.aspx" />
+    <Content Include="Calendar.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -265,6 +266,8 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Tabs.aspx" />
+    <Content Include="TestPage.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -329,6 +332,13 @@
     <Compile Include="Calculator.aspx.designer.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Calendar.aspx.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar.aspx.designer.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -367,6 +377,20 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs.aspx.cs">
+      <DependentUpon>Tabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tabs.aspx.designer.cs">
+      <DependentUpon>Tabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage.aspx.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage.aspx.designer.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
