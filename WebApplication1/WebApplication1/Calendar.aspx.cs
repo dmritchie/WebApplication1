@@ -12,6 +12,14 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                //StartDate.ForeColor = Color.LightGoldenrodYellow;
+                //StartDate.ForeColor = Color.DeepPink;
+                StartDate.Font.Bold = true;
+                StartDate.Font.Size = FontUnit.Medium;
+                StartDate.Font.Name = "Comic Sans MS";
+            }  
 
         }
     }
