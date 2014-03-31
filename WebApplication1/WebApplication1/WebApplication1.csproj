@@ -254,6 +254,7 @@
     <Content Include="Global.asax" />
     <Content Include="Tabs.aspx" />
     <Content Include="TestPage.aspx" />
+    <Content Include="UserForm.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -377,6 +378,13 @@
     </Compile>
     <Compile Include="TestPage.aspx.designer.cs">
       <DependentUpon>TestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm.aspx.cs">
+      <DependentUpon>UserForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserForm.aspx.designer.cs">
+      <DependentUpon>UserForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
