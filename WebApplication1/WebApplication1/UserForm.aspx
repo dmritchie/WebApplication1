@@ -13,7 +13,7 @@
       <asp:BoundField DataField="FullName" HeaderText="Full Name" ReadOnly="True" />  
       <asp:BoundField DataField="EMail" HeaderText="email" ReadOnly="True" />  
       <asp:BoundField DataField="Phone" HeaderText="Telephone" ReadOnly="True" />  
-        <asp:ButtonField buttontype="Button" Text="email" CommandName="SendEmail" />
+        <asp:ButtonField buttontype="Button" HeaderText="Click to send email through local client" Text="email" CommandName="SendEmail" />
     </Columns>
     </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server"   
