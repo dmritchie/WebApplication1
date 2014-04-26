@@ -252,6 +252,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="States.aspx" />
     <Content Include="Tabs.aspx" />
     <Content Include="TestPage.aspx" />
     <Content Include="UserForm.aspx" />
@@ -364,6 +365,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="States.aspx.cs">
+      <DependentUpon>States.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="States.aspx.designer.cs">
+      <DependentUpon>States.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tabs.aspx.cs">
       <DependentUpon>Tabs.aspx</DependentUpon>
